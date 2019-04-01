@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <string name="Edit">Button</string>
+    <string name="edit">Edit</string>
+
+    <string-array name="ParkingTypes">
+        <item>Access</item>
+        <item>Basic</item>
+        <item>Midrange</item>
+        <item>Premium</item>
+    </string-array>
+
+    <string-array name="ParkingAreaNames">
+        <item>West Garage</item>
+        <item>Maverick</item>
+        <item>Davis</item>
+        <item>Nedderman</item>
+    </string-array>
+
+    <string-array name="Floor">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="Permit">
+        <item>Mid-Range Permit</item>
+        <item>Premium Permit</item>
+        <item>Special Access Permit</item>
+    </string-array>
+    <string-array name="UserTypes">
+        <item>User</item>
+        <item>Manager</item>
+        <item>Admin</item>
+    </string-array>
+    <string name="title_activity_no_shows_screen">no_shows_screen</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_no_show_screen">no_show_screen</string>
+    <string name="title_activity_user_registration_screen">user_registration_screen</string>
+
+</resources>

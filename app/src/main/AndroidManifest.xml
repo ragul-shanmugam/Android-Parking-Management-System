@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="UTA Parking System"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".user_prof_screen_1"></activity>
+        <activity
+            android:name=".admin_edit_user_profile"
+            android:label="Edit Profile"
+            android:parentActivityName=".admin_search_user">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.admin_search_user" />
+        </activity>
+        <activity
+            android:name=".view_past_reservations_screen"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:label="Past Reservations"
+            android:parentActivityName=".user_hs">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.user_hs" />
+        </activity>
+        <activity
+            android:name=".spot_details_search_screen"
+            android:label="Spot Details"
+            android:parentActivityName=".mgr_hs">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.mgr_hs" />
+        </activity>
+        <activity
+            android:name=".modify_reservation_screen"
+            android:label="Modify Reservation"
+            android:parentActivityName=".view_reservation_screen">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.user_hs" />
+        </activity>
+        <activity
+            android:name=".view_reservation_screen"
+            android:label="View Reservation"
+            android:parentActivityName=".user_hs">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.user_hs" />
+        </activity>
+        <activity
+            android:name=".view_violation_screen"
+            android:configChanges="orientation"
+            android:label="Violations"
+            android:parentActivityName=".user_hs">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.user_hs" />
+        </activity>
+        <activity
+            android:name=".view_no_show_screen"
+            android:configChanges="orientation"
+            android:label="No-Shows"
+            android:parentActivityName=".user_hs">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.user_hs" />
+        </activity>
+        <activity
+            android:name=".admin_update_profile"
+            android:label="Update Profile"
+            android:parentActivityName=".admin_view_profile">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.admin_view_profile" />
+        </activity>
+        <activity
+            android:name=".admin_view_profile"
+            android:label="Profile Screen"
+            android:parentActivityName=".admin_hs">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.admin_hs" />
+        </activity>
+        <activity
+            android:name=".manager_update_profile"
+            android:label="Update Profile"
+            android:parentActivityName=".manager_view_profile">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.manager_view_profile" />
+        </activity>
+        <activity
+            android:name=".manager_view_profile"
+            android:label="Profile Screen"
+            android:parentActivityName=".mgr_hs">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.mgr_hs" />
+        </activity>
+        <activity
+            android:name=".forgot_password"
+            android:label="Forgot Password"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.MainActivity" />
+        </activity>
+        <activity
+            android:name=".admin_search_user"
+            android:label="Search User"
+            android:parentActivityName=".admin_hs">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.admin_hs" />
+        </activity>
+        <activity
+            android:name=".admin_registration_screen"
+            android:label="Admin Registration"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.MainActivity" />
+        </activity>
+        <activity
+            android:name=".manager_registration_screen"
+            android:label="Manager Registration"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.MainActivity" />
+        </activity>
+        <activity
+            android:name=".user_registration_screen"
+            android:exported="true"
+            android:label="User Registration"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.MainActivity" />
+        </activity>
+        <activity
+            android:name=".manager_user_search"
+            android:label="Search User"
+            android:parentActivityName=".mgr_hs">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.mgr_hs" />
+        </activity>
+        <activity
+            android:name=".availability_screen"
+            android:label="Spot Availability"
+            android:parentActivityName=".mgr_hs">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.mgr_hs" />
+        </activity>
+        <activity
+            android:name=".make_reservation_screen"
+            android:label="Make Reservation"
+            android:parentActivityName=".user_hs">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.user_hs" />
+        </activity>
+        <activity
+            android:name=".user_edit_prof_screen"
+            android:label="Update Profile"
+            android:parentActivityName=".user_prof_screen">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.user_prof_screen" />
+        </activity>
+        <activity
+            android:name=".user_prof_screen"
+            android:label="Profile screen"
+            android:parentActivityName=".user_hs">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.user_hs" />
+        </activity>
+        <activity
+            android:name=".admin_hs"
+            android:label="Admin Home Screen" />
+        <activity
+            android:name=".mgr_hs"
+            android:label="Manager Home Screen" />
+        <activity
+            android:name=".user_hs"
+            android:label="User Home Screen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
