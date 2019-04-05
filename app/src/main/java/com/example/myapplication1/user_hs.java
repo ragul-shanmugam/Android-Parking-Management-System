@@ -28,7 +28,7 @@ public class user_hs extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(user_hs.this, make_reservation_screen.class));
+                startActivity(new Intent(user_hs.this, MakeReservationScreen.class));
             }
         });
 

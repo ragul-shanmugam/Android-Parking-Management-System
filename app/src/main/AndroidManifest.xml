@@ -160,7 +160,7 @@
                 android:value="com.example.mgr_hs" />
         </activity>
         <activity
-            android:name=".make_reservation_screen"
+            android:name=".MakeReservationScreen"
             android:label="Make Reservation"
             android:parentActivityName=".user_hs">
             <meta-data
