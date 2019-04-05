@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class admin_search_user extends AppCompatActivity {
+public class AdminSearchUser extends AppCompatActivity {
 
     public static Button btn2;
     @Override
@@ -23,7 +23,7 @@ public class admin_search_user extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(admin_search_user.this, admin_edit_user_profile.class));
+                startActivity(new Intent(AdminSearchUser.this, AdminEditUserProfile.class));
             }
         });
 
@@ -34,7 +34,7 @@ public class admin_search_user extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder build1 = new AlertDialog.Builder(admin_search_user.this);
+                AlertDialog.Builder build1 = new AlertDialog.Builder(AdminSearchUser.this);
                 build1.setMessage("Do you want to revoke this user ?").setCancelable(false).setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

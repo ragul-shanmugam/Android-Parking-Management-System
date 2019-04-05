@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".user_prof_screen_1">
+    tools:context=".UserProfileScreen1">
 
 </android.support.constraint.ConstraintLayout>

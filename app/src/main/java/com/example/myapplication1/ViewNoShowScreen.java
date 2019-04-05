@@ -6,13 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 
-public class view_past_reservations_screen extends AppCompatActivity {
+public class ViewNoShowScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_view_past_reservations_screen);
-
+        setContentView(R.layout.activity_view_no_show_screen);
         ActionBar actionBar = getActionBar();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

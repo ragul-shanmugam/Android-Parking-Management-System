@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
-public class user_hs extends AppCompatActivity {
+public class UserHomeScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class user_hs extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(user_hs.this, user_prof_screen.class));
+                startActivity(new Intent(UserHomeScreen.this, UserProfileScreen.class));
             }
         });
 
@@ -28,7 +28,7 @@ public class user_hs extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(user_hs.this, MakeReservationScreen.class));
+                startActivity(new Intent(UserHomeScreen.this, MakeReservationScreen.class));
             }
         });
 
@@ -37,7 +37,7 @@ public class user_hs extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(user_hs.this, view_reservation_screen.class));
+                startActivity(new Intent(UserHomeScreen.this, ViewReservationScreen.class));
             }
         });
 
@@ -46,7 +46,7 @@ public class user_hs extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(user_hs.this, view_past_reservations_screen.class));
+                startActivity(new Intent(UserHomeScreen.this, ViewPastReservationsScreen.class));
             }
         });
 
@@ -55,7 +55,7 @@ public class user_hs extends AppCompatActivity {
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(user_hs.this, view_no_show_screen.class));
+                startActivity(new Intent(UserHomeScreen.this, ViewNoShowScreen.class));
             }
         });
 
@@ -64,7 +64,7 @@ public class user_hs extends AppCompatActivity {
         btn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(user_hs.this, view_violation_screen.class));
+                startActivity(new Intent(UserHomeScreen.this, ViewViolationScreen.class));
             }
         });
 

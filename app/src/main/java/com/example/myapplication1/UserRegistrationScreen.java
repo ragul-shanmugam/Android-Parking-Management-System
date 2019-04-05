@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-public class user_registration_screen extends AppCompatActivity {
+public class UserRegistrationScreen extends AppCompatActivity {
 
     private EditText Fname,Lname,Username,Password,Rpassword,UTAid,Phno,Email,Carinfo,Licenseno;
     private Spinner Parktype,Usertype;

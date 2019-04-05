@@ -9,101 +9,101 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".user_prof_screen_1"></activity>
+        <activity android:name=".UserProfileScreen1"></activity>
         <activity
-            android:name=".admin_edit_user_profile"
+            android:name=".AdminEditUserProfile"
             android:label="Edit Profile"
-            android:parentActivityName=".admin_search_user">
+            android:parentActivityName=".AdminSearchUser">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.admin_search_user" />
         </activity>
         <activity
-            android:name=".view_past_reservations_screen"
+            android:name=".ViewPastReservationsScreen"
             android:configChanges="orientation"
             android:exported="true"
             android:label="Past Reservations"
-            android:parentActivityName=".user_hs">
+            android:parentActivityName=".UserHomeScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.user_hs" />
         </activity>
         <activity
-            android:name=".spot_details_search_screen"
+            android:name=".SpotDetailsSearchScreen"
             android:label="Spot Details"
-            android:parentActivityName=".mgr_hs">
+            android:parentActivityName=".ManagerHomeScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.mgr_hs" />
         </activity>
         <activity
-            android:name=".modify_reservation_screen"
+            android:name=".ModifyReservationScreen"
             android:label="Modify Reservation"
-            android:parentActivityName=".view_reservation_screen">
+            android:parentActivityName=".ViewReservationScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.user_hs" />
         </activity>
         <activity
-            android:name=".view_reservation_screen"
+            android:name=".ViewReservationScreen"
             android:label="View Reservation"
-            android:parentActivityName=".user_hs">
+            android:parentActivityName=".UserHomeScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.user_hs" />
         </activity>
         <activity
-            android:name=".view_violation_screen"
+            android:name=".ViewViolationScreen"
             android:configChanges="orientation"
             android:label="Violations"
-            android:parentActivityName=".user_hs">
+            android:parentActivityName=".UserHomeScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.user_hs" />
         </activity>
         <activity
-            android:name=".view_no_show_screen"
+            android:name=".ViewNoShowScreen"
             android:configChanges="orientation"
             android:label="No-Shows"
-            android:parentActivityName=".user_hs">
+            android:parentActivityName=".UserHomeScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.user_hs" />
         </activity>
         <activity
-            android:name=".admin_update_profile"
+            android:name=".AdminUpdateProfile"
             android:label="Update Profile"
-            android:parentActivityName=".admin_view_profile">
+            android:parentActivityName=".AdminViewProfile">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.admin_view_profile" />
         </activity>
         <activity
-            android:name=".admin_view_profile"
+            android:name=".AdminViewProfile"
             android:label="Profile Screen"
-            android:parentActivityName=".admin_hs">
+            android:parentActivityName=".AdminHomeScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.admin_hs" />
         </activity>
         <activity
-            android:name=".manager_update_profile"
+            android:name=".ManagerUpdateProfile"
             android:label="Update Profile"
-            android:parentActivityName=".manager_view_profile">
+            android:parentActivityName=".ManagerViewProfile">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.manager_view_profile" />
         </activity>
         <activity
-            android:name=".manager_view_profile"
+            android:name=".ManagerViewProfile"
             android:label="Profile Screen"
-            android:parentActivityName=".mgr_hs">
+            android:parentActivityName=".ManagerHomeScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.mgr_hs" />
         </activity>
         <activity
-            android:name=".forgot_password"
+            android:name=".ForgotPassword"
             android:label="Forgot Password"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -111,15 +111,15 @@
                 android:value="com.example.MainActivity" />
         </activity>
         <activity
-            android:name=".admin_search_user"
+            android:name=".AdminSearchUser"
             android:label="Search User"
-            android:parentActivityName=".admin_hs">
+            android:parentActivityName=".AdminHomeScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.admin_hs" />
         </activity>
         <activity
-            android:name=".admin_registration_screen"
+            android:name=".AdminRegistrationScreen"
             android:label="Admin Registration"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -127,7 +127,7 @@
                 android:value="com.example.MainActivity" />
         </activity>
         <activity
-            android:name=".manager_registration_screen"
+            android:name=".ManagerRegistrationScreen"
             android:label="Manager Registration"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -135,7 +135,7 @@
                 android:value="com.example.MainActivity" />
         </activity>
         <activity
-            android:name=".user_registration_screen"
+            android:name=".UserRegistrationScreen"
             android:exported="true"
             android:label="User Registration"
             android:parentActivityName=".MainActivity">
@@ -144,17 +144,17 @@
                 android:value="com.example.MainActivity" />
         </activity>
         <activity
-            android:name=".manager_user_search"
+            android:name=".ManagerUserSearch"
             android:label="Search User"
-            android:parentActivityName=".mgr_hs">
+            android:parentActivityName=".ManagerHomeScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.mgr_hs" />
         </activity>
         <activity
-            android:name=".availability_screen"
+            android:name=".AvailabilityScreen"
             android:label="Spot Availability"
-            android:parentActivityName=".mgr_hs">
+            android:parentActivityName=".ManagerHomeScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.mgr_hs" />
@@ -162,35 +162,35 @@
         <activity
             android:name=".MakeReservationScreen"
             android:label="Make Reservation"
-            android:parentActivityName=".user_hs">
+            android:parentActivityName=".UserHomeScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.user_hs" />
         </activity>
         <activity
-            android:name=".user_edit_prof_screen"
+            android:name=".UserEditProfileScreen"
             android:label="Update Profile"
-            android:parentActivityName=".user_prof_screen">
+            android:parentActivityName=".UserProfileScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.user_prof_screen" />
         </activity>
         <activity
-            android:name=".user_prof_screen"
+            android:name=".UserProfileScreen"
             android:label="Profile screen"
-            android:parentActivityName=".user_hs">
+            android:parentActivityName=".UserHomeScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.user_hs" />
         </activity>
         <activity
-            android:name=".admin_hs"
+            android:name=".AdminHomeScreen"
             android:label="Admin Home Screen" />
         <activity
-            android:name=".mgr_hs"
+            android:name=".ManagerHomeScreen"
             android:label="Manager Home Screen" />
         <activity
-            android:name=".user_hs"
+            android:name=".UserHomeScreen"
             android:label="User Home Screen" />
         <activity android:name=".MainActivity">
             <intent-filter>

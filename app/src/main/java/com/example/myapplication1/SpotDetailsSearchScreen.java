@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-public class spot_details_search_screen extends AppCompatActivity {
+public class SpotDetailsSearchScreen extends AppCompatActivity {
 
     public static Button btn1;
     public static Button btn2;
@@ -47,7 +47,7 @@ public class spot_details_search_screen extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder build1 = new AlertDialog.Builder(spot_details_search_screen.this);
+                AlertDialog.Builder build1 = new AlertDialog.Builder(SpotDetailsSearchScreen.this);
                 build1.setMessage("Do you want to delete this reservation?").setCancelable(false).setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
@@ -74,7 +74,7 @@ public class spot_details_search_screen extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder build1 = new AlertDialog.Builder(spot_details_search_screen.this);
+                AlertDialog.Builder build1 = new AlertDialog.Builder(SpotDetailsSearchScreen.this);
                 build1.setMessage("Do you want make the spot unavailable?").setCancelable(false).setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

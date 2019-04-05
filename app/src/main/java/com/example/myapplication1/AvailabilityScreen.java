@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-public class availability_screen extends AppCompatActivity {
+public class AvailabilityScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-public class modify_reservation_screen extends AppCompatActivity {
+public class ModifyReservationScreen extends AppCompatActivity {
 
     public static Button btn0;
     @Override
@@ -43,7 +43,7 @@ public class modify_reservation_screen extends AppCompatActivity {
         btn0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder build1 = new AlertDialog.Builder(modify_reservation_screen.this);
+                AlertDialog.Builder build1 = new AlertDialog.Builder(ModifyReservationScreen.this);
                 build1.setMessage("Do you want to confirm the Reservation?").setCancelable(false).setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

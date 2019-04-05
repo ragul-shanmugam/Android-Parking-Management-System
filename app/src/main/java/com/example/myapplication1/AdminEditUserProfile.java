@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-public class admin_edit_user_profile extends AppCompatActivity {
+public class AdminEditUserProfile extends AppCompatActivity {
 
     public static Button btn1;
     @Override
@@ -39,7 +39,7 @@ public class admin_edit_user_profile extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder build1 = new AlertDialog.Builder(admin_edit_user_profile.this);
+                AlertDialog.Builder build1 = new AlertDialog.Builder(AdminEditUserProfile.this);
                 build1.setMessage("Do you want to save the changes ?").setCancelable(false).setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

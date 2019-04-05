@@ -1,22 +1,30 @@
 package com.example.myapplication1;
 
 import android.app.ActionBar;
-import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
-public class view_violation_screen extends AppCompatActivity {
+public class AdminUpdateProfile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_view_violation_screen);
+        setContentView(R.layout.activity_admin_update_profile);
         ActionBar actionBar = getActionBar();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
+        Button btn1 = (Button) findViewById(R.id.saveBtn2);
 
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"The Profile is updated.",Toast.LENGTH_LONG).show();
+            }
+        });
     }
 
     public boolean onCreateOptionsMenu (Menu menu){

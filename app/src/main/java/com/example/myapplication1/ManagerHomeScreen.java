@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
-public class mgr_hs extends AppCompatActivity {
+public class ManagerHomeScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class mgr_hs extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(mgr_hs.this, manager_view_profile.class));
+                startActivity(new Intent(ManagerHomeScreen.this, ManagerViewProfile.class));
             }
         });
 
@@ -28,7 +28,7 @@ public class mgr_hs extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(mgr_hs.this, manager_user_search.class));
+                startActivity(new Intent(ManagerHomeScreen.this, ManagerUserSearch.class));
             }
         });
 
@@ -37,7 +37,7 @@ public class mgr_hs extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(mgr_hs.this, spot_details_search_screen.class));
+                startActivity(new Intent(ManagerHomeScreen.this, SpotDetailsSearchScreen.class));
             }
         });
 
@@ -46,7 +46,7 @@ public class mgr_hs extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(mgr_hs.this, availability_screen.class));
+                startActivity(new Intent(ManagerHomeScreen.this, AvailabilityScreen.class));
             }
         });
 

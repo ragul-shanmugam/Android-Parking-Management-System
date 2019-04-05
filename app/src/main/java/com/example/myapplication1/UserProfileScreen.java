@@ -14,7 +14,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-public class user_prof_screen extends AppCompatActivity {
+public class UserProfileScreen extends AppCompatActivity {
     SQLiteDatabase Db;
     private EditText Fname2,Lname2,UTAid2,Phno2,Email2,Carinfo2,Licenseno2;
 
@@ -33,13 +33,13 @@ public class user_prof_screen extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //startActivity(new Intent(user_prof_screen.this, user_edit_prof_screen.class));
+                //startActivity(new Intent(UserProfileScreen.this, UserEditProfileScreen.class));
                 //show();
 
             }
         });
-        //int b=user_registration_screen.a;
-        //Toast.makeText(this,String.valueOf(user_registration_screen.a),Toast.LENGTH_LONG).show();
+        //int b=UserRegistrationScreen.a;
+        //Toast.makeText(this,String.valueOf(UserRegistrationScreen.a),Toast.LENGTH_LONG).show();
         //show();
 
     }

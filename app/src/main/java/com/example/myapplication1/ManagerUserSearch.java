@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class manager_user_search extends AppCompatActivity {
+public class ManagerUserSearch extends AppCompatActivity {
 
     public static Button btn1;
     public static Button btn2;
@@ -25,7 +25,7 @@ public class manager_user_search extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder build1 = new AlertDialog.Builder(manager_user_search.this);
+                AlertDialog.Builder build1 = new AlertDialog.Builder(ManagerUserSearch.this);
                 build1.setMessage("Do you want to set a no show for this reservation ?").setCancelable(false).setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
@@ -52,7 +52,7 @@ public class manager_user_search extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder build1 = new AlertDialog.Builder(manager_user_search.this);
+                AlertDialog.Builder build1 = new AlertDialog.Builder(ManagerUserSearch.this);
                 build1.setMessage("Do you want to set this reservation to overdue ?").setCancelable(false).setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

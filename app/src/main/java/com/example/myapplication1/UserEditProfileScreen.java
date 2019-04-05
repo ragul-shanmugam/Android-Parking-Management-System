@@ -1,6 +1,5 @@
 package com.example.myapplication1;
 
-import android.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -8,21 +7,19 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class admin_update_profile extends AppCompatActivity {
+public class UserEditProfileScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin_update_profile);
-        ActionBar actionBar = getActionBar();
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setContentView(R.layout.activity_user_edit_prof_screen);
 
-        Button btn1 = (Button) findViewById(R.id.saveBtn2);
+        Button btn1 = (Button) findViewById(R.id.SaveBtn1);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"The Profile is updated.",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Profile Updated",Toast.LENGTH_LONG).show();
             }
         });
     }

@@ -1,10 +1,8 @@
 package com.example.myapplication1;
 
 import android.content.Intent;
-import android.content.pm.SigningInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -30,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
          //       validate(Name.getText().toString(),Password.getText().toString());
-                startActivity(new Intent(MainActivity.this, admin_hs.class));
+                startActivity(new Intent(MainActivity.this, AdminHomeScreen.class));
             }
         });
 
@@ -39,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         Signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,user_registration_screen.class));
+                startActivity(new Intent(MainActivity.this, UserRegistrationScreen.class));
             }
         });
 
@@ -48,14 +46,14 @@ public class MainActivity extends AppCompatActivity {
         Forgotpass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, forgot_password.class));
+                startActivity(new Intent(MainActivity.this, ForgotPassword.class));
             }
         });
     }
 
     private void validate(String userName, String userPassword){
         if((userName.equalsIgnoreCase("Admin")) && (userPassword.equals("1234"))){
-            Intent intent = new Intent(MainActivity.this, admin_hs.class);
+            Intent intent = new Intent(MainActivity.this, AdminHomeScreen.class);
             startActivity(intent);
         }
         else {
