@@ -13,9 +13,9 @@ public class DBConnection {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-        String url1 = "jdbc:mysql://192.168.1.10:3306/demo";
+        String url1 = "jdbc:mysql://localhost:3306/parking_management_cse5324";
         String user = "root";
-        String password = "mypassword";
+        String password = "**********";
 
         try {
             conn = DriverManager.getConnection(url1, user, password);

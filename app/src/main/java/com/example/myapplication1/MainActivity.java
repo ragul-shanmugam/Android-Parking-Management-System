@@ -8,11 +8,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.sql.SQLException;
+
 public class MainActivity extends AppCompatActivity {
     private EditText Name;
     private EditText Password;
     private Button Signin;
     private int counter = 5;
+    boolean userAvailable;
+    LoginController loginController = new LoginController();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +56,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void validate(String userName, String userPassword){
-        if((userName.equalsIgnoreCase("Admin")) && (userPassword.equals("1234"))){
+
+        try
+        {
+            userAvailable = loginController.loginCheck(userName, userPassword);
+        }
+        catch (SQLException e)
+        {
+            e.printStackTrace();
+        }
+
+        if(userAvailable){
             Intent intent = new Intent(MainActivity.this, AdminHomeScreen.class);
             startActivity(intent);
         }

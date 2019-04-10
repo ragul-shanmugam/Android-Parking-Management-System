@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class LoginController {
-    public boolean userAvailable;
+    public boolean isUserAvailable;
     String sql = "select * from login";
     DBConnection dbConnection;
     private String usernameFromDB = null;
@@ -23,7 +23,13 @@ public class LoginController {
             usernameFromDB = rs.getString(1);
             passwordFromDB = rs.getString(2);
         }
+        if(usernameFromDB == username && passwordFromDB == passwordFromDB)
+        {
+            isUserAvailable = true;
+        }
 
-        return userAvailable;
+        conn.close();
+
+        return isUserAvailable;
     }
 }
