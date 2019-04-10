@@ -1,4 +1,4 @@
-package com.example.myapplication1;
+package com.example.myapplication1.com.cse5324.team6.manager;
 
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -11,6 +11,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.example.myapplication1.R;
 
 public class SpotDetailsSearchScreen extends AppCompatActivity {
 

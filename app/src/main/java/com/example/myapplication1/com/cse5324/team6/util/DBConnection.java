@@ -1,4 +1,4 @@
-package com.example.myapplication1;
+package com.example.myapplication1.com.cse5324.team6.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

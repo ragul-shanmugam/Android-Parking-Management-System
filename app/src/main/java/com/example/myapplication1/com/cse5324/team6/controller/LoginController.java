@@ -1,4 +1,6 @@
-package com.example.myapplication1;
+package com.example.myapplication1.com.cse5324.team6.controller;
+
+import com.example.myapplication1.com.cse5324.team6.util.DBConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

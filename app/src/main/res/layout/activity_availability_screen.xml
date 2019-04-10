@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    tools:context=".AvailabilityScreen">
+    tools:context=".com.cse5324.team6.manager.AvailabilityScreen">
 
     <TextView
         android:id="@+id/textView"

@@ -1,28 +1,30 @@
-package com.example.myapplication1;
+package com.example.myapplication1.com.cse5324.team6.admin;
 
 import android.app.ActionBar;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
-public class AdminUpdateProfile extends AppCompatActivity {
+import com.example.myapplication1.R;
+
+public class AdminViewProfile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin_update_profile);
+        setContentView(R.layout.activity_admin_view_profile);
         ActionBar actionBar = getActionBar();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        Button btn1 = (Button) findViewById(R.id.saveBtn2);
+        Button btn1 = (Button) findViewById(R.id.updateBtn3);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"The Profile is updated.",Toast.LENGTH_LONG).show();
+                startActivity(new Intent(AdminViewProfile.this, AdminUpdateProfile.class));
             }
         });
     }

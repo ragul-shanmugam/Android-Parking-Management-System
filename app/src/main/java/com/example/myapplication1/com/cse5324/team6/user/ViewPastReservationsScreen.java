@@ -1,10 +1,12 @@
-package com.example.myapplication1;
+package com.example.myapplication1.com.cse5324.team6.user;
 
 import android.app.ActionBar;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
+
+import com.example.myapplication1.R;
 
 public class ViewPastReservationsScreen extends AppCompatActivity {
 

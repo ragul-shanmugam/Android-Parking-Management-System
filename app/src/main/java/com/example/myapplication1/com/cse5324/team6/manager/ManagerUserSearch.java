@@ -1,4 +1,4 @@
-package com.example.myapplication1;
+package com.example.myapplication1.com.cse5324.team6.manager;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -8,6 +8,8 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.myapplication1.R;
 
 public class ManagerUserSearch extends AppCompatActivity {
 

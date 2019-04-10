@@ -1,4 +1,4 @@
-package com.example.myapplication1;
+package com.example.myapplication1.com.cse5324.team6.manager;
 
 import android.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+
+import com.example.myapplication1.R;
 
 public class AvailabilityScreen extends AppCompatActivity {
 

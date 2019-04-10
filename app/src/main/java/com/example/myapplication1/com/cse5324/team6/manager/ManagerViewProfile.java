@@ -1,4 +1,4 @@
-package com.example.myapplication1;
+package com.example.myapplication1.com.cse5324.team6.manager;
 
 import android.app.ActionBar;
 import android.content.Intent;
@@ -8,21 +8,23 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
-public class AdminViewProfile extends AppCompatActivity {
+import com.example.myapplication1.R;
+
+public class ManagerViewProfile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin_view_profile);
+        setContentView(R.layout.activity_manager_view_profile);
         ActionBar actionBar = getActionBar();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        Button btn1 = (Button) findViewById(R.id.updateBtn3);
+        Button btn1 = (Button) findViewById(R.id.updateBtn2);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AdminViewProfile.this, AdminUpdateProfile.class));
+                startActivity(new Intent(ManagerViewProfile.this, ManagerUpdateProfile.class));
             }
         });
     }
