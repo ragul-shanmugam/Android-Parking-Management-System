@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.myapplication1.UserRegistrationScreen">
+    tools:context="com.example.myapplication1.com.cse5324.team6.util.UserRegistrationScreen">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"

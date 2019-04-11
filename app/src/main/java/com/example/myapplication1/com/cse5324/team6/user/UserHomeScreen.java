@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.myapplication1.R;
-import com.example.myapplication1.ViewNoShowScreen;
-import com.example.myapplication1.ViewViolationScreen;
 
 public class UserHomeScreen extends AppCompatActivity {
 

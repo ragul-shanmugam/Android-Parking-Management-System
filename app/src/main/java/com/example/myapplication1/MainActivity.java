@@ -10,6 +10,8 @@ import android.widget.Toast;
 
 import com.example.myapplication1.com.cse5324.team6.admin.AdminHomeScreen;
 import com.example.myapplication1.com.cse5324.team6.controller.LoginController;
+import com.example.myapplication1.com.cse5324.team6.util.ForgotPassword;
+import com.example.myapplication1.com.cse5324.team6.util.UserRegistrationScreen;
 
 import java.sql.SQLException;
 

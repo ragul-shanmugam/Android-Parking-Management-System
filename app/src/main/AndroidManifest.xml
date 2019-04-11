@@ -53,7 +53,7 @@
                 android:value="com.example.user_hs" />
         </activity>
         <activity
-            android:name=".ViewViolationScreen"
+            android:name=".com.cse5324.team6.user.ViewViolationScreen"
             android:configChanges="orientation"
             android:label="Violations"
             android:parentActivityName=".com.cse5324.team6.user.UserHomeScreen">
@@ -62,7 +62,7 @@
                 android:value="com.example.user_hs" />
         </activity>
         <activity
-            android:name=".ViewNoShowScreen"
+            android:name=".com.cse5324.team6.user.ViewNoShowScreen"
             android:configChanges="orientation"
             android:label="No-Shows"
             android:parentActivityName=".com.cse5324.team6.user.UserHomeScreen">
@@ -103,7 +103,7 @@
                 android:value="com.example.mgr_hs" />
         </activity>
         <activity
-            android:name=".ForgotPassword"
+            android:name=".com.cse5324.team6.util.ForgotPassword"
             android:label="Forgot Password"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -135,7 +135,7 @@
                 android:value="com.example.MainActivity" />
         </activity>
         <activity
-            android:name=".UserRegistrationScreen"
+            android:name=".com.cse5324.team6.util.UserRegistrationScreen"
             android:exported="true"
             android:label="User Registration"
             android:parentActivityName=".MainActivity">
@@ -168,7 +168,7 @@
                 android:value="com.example.user_hs" />
         </activity>
         <activity
-            android:name=".UserEditProfileScreen"
+            android:name=".com.cse5324.team6.manager.UserEditProfileScreen"
             android:label="Update Profile"
             android:parentActivityName=".com.cse5324.team6.user.UserProfileScreen">
             <meta-data
