@@ -1,5 +1,8 @@
 package com.example.myapplication1.com.cse5324.team6.util;
 
+import java.util.ArrayList;
+import android.util.Log;
+
 public class User {
 
     public String firstName;
@@ -13,6 +16,21 @@ public class User {
     public String userType;
     public String carInfo;
     public int licenseNumber;
+
+    private ArrayList<ReservationDetails> reservationList;
+
+    public User(){
+        reservationList = new ArrayList<ReservationDetails>();
+    }
+
+    public ReservationDetails getReservation(int idx) {
+        return reservationList.get(idx);
+    }
+
+    public void addReservation(ReservationDetails res){
+        reservationList.add(res);
+    }
+
 
     public String getFirstName() {
         return firstName;
