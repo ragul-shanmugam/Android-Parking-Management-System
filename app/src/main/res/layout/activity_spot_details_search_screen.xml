@@ -151,7 +151,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <Button
-            android:id="@+id/button17"
+            android:id="@+id/SearchSpot"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_marginStart="155dp"
@@ -181,13 +181,13 @@
             android:text="Status"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/editText66"
+            app:layout_constraintEnd_toStartOf="@+id/SpotStatus"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/editText66"
+            android:id="@+id/SpotStatus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/my_border"
@@ -271,14 +271,14 @@
                 android:layout_height="match_parent">
 
                 <EditText
-                    android:id="@+id/editText73"
+                    android:id="@+id/SpotUserName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName" />
 
                 <EditText
-                    android:id="@+id/editText72"
+                    android:id="@+id/SpotParkingID"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"

@@ -18,6 +18,12 @@
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.admin_search_user" />
         </activity>
+        <activity android:name=".com.cse5324.team6.manager.SpotDetailsSearchScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".com.cse5324.team6.user.ViewPastReservationsScreen"
             android:configChanges="orientation"
@@ -28,14 +34,14 @@
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.user_hs" />
         </activity>
-        <activity
+        <!--activity
             android:name=".com.cse5324.team6.manager.SpotDetailsSearchScreen"
             android:label="Spot Details"
             android:parentActivityName=".com.cse5324.team6.manager.ManagerHomeScreen">
             <meta-data
                 android:name="android:support.PARENT_ACTIVITY"
                 android:value="com.example.mgr_hs" />
-        </activity>
+        </activity!-->
         <activity
             android:name=".com.cse5324.team6.user.ModifyReservationScreen"
             android:label="Modify Reservation"
@@ -193,11 +199,11 @@
             android:name=".com.cse5324.team6.user.UserHomeScreen"
             android:label="User Home Screen" />
         <activity android:name=".MainActivity">
-            <intent-filter>
+            <!--intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter!-->
         </activity>
     </application>
 
